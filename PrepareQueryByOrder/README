@@ -1,0 +1,41 @@
+Author : Suganth Mohan.
+
+~ Version : Python 3.5 (You can notice from the print statements there :P )
+
+~ Sql syntax used : MySQL
+
+~ packages used : 
+
+	warnings : 
+		- The warnings package is optional and it is mainly used to customize your errors 
+		- In the case that your code does not necessarily need to still keep running incase of issues, 
+		  you can go ahead and exclude it
+
+
+
+
+
+
+
+~ Function Name : sqlPrepare 
+
+~ Arguments :
+
+	First Arugment:-
+
+		1. The query you are about to use. 
+		2. The query must contain '?' ( question mark ) symbol for each value you are about to populate
+		3. The function is not dynamic and cannot fit more than one values unless they are altered.
+		4. Keep in mind that this is for static queries only, you can look at dynamic query creation. 
+
+		Constraints : 
+			1. Must be a string
+
+
+
+
+	Second to `n' arguments:- 	
+
+		1. The Other arguments are the values that you are going to use to alter or populate the query.
+		2. Standard function argument syntax's applied. :) 
+		3. It can be of any type as long as it represent's a scalar.
