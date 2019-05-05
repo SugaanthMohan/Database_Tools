@@ -1,10 +1,12 @@
-#! /usr/bin/python
+#! /usr/bin/python3.5
 
 '''
 Process                     :   COMPARE SIMILAR TABLES IN DATABASES
 Author                      :   Suganth Mohan
 Created                     :   Oct 19 2018
 Last Modified Date          :   - 
+
+
 
 Version Control:
 _______________
