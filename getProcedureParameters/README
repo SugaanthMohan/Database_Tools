@@ -1,0 +1,31 @@
+~ SYNOPSIS :
+        - The Procedure Parameters function is used to the parameters of the procedure (The arguments that are to be parsed by IN) in MySQL and,
+	  Then convert them into call statements, with reference to the correct positional input filling their value.
+
+~ PYTHON VERSION : PYTHON 3.5
+
+~ PYTHON PACKAGES :
+	
+	# USED TO GET MySQLDB Data
+	import MySQLdb     
+
+	# REGEX COMPARE 
+	import re as Regex
+
+	#USED TO CREATE A DICTIONARY WITH ITS ORDER MAINTAINED
+	from collections import OrderedDict
+
+	# USED TO PRINT WARNING STATEMENTS INSTEAD OF EXIT
+	import warnings
+
+~ SCRIPT NAME : getProcedureParameters.py
+
+~ USAGE :
+	- Requires 3 Arguments for the function of getProcedureMetaData
+		+ Connection_	=> The Live MySQL DB Connection inorder to retrieve the parameters from the database dynamically.
+		+ Procedure_	=> The Name of the Procedure which you are going to prepare the call statement for.
+		+ DatabaseName_	=> The Database Name where the procedure is present, incase you did not create a connection specific to a database.
+	
+~ CONSTRAINTS :
+	- The Data Dictionary Map or whichever map you use, Must have the same name or it should be converted into that name with Prefix,Suffix, Etc..
+	- Only maps values that are present in the call statement already.
