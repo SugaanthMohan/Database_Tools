@@ -29,3 +29,4 @@
 ~ CONSTRAINTS :
 	- The Data Dictionary Map or whichever map you use, Must have the same name or it should be converted into that name with Prefix,Suffix, Etc..
 	- Only maps values that are present in the call statement already.
+	- There should not be less than 3 words when creating an IN parameter of the procedure.
