@@ -1,0 +1,59 @@
+~ SYNOPSIS :
+	- The Python database template is a generic basic template developed by Suganth Mohan, which can be used 
+	  to perform database tasks and has a bunch of functions that can be used for performing complex tasks.
+
+
+~ PYTHON VERSION : PYTHON 3.5
+
+~ PYTHON PACKAGES :
+	
+	# USED TO PERFORM SYSTEM FUNCTIONS
+	import sys , os as linux
+
+	# TO READ ZIP FILES
+	import zipfile as zippy
+
+	# USED FOR EXCEPTION HANDLING AND BRIEFING
+	import linecache
+
+	# USED IN LOGGER FOR DETAILED PRINT STATEMENT
+	import inspect
+
+	# USED TO RETRIEVE PARSED ARGUMENTS
+	import argparse
+
+	# REGEX COMPARE
+	import re as Regex
+
+	# READ CSV INPUT FILE
+	import pandas as pd
+
+	# USED TO GET MySQLDB Data
+	import MySQLdb
+
+	# USED FOR SENDING EMAIL
+	import smtplib
+
+	# USED FOR DATE TIME MANIP
+	import datetime
+
+	# USED FOR XML FILE PARSING
+	import xml.etree.ElementTree as ET
+
+	# USED TO RAISE WARNINGS, INSTEAD OF ERRORS
+	import warnings
+
+	#USED TO CREATE A DICTIONARY WITH ITS ORDER MAINTAINED
+	from collections import OrderedDict 
+
+	# USED FOR RECORDING BASH OUTPUT
+	import subprocess
+
+	# USED FOR MULTIPROCESSING
+	import multiprocessing
+
+~ SCRIPT NAME : Basic_PythonDB_Template.py
+
+~ CONSTRAINTS :
+	- Like all templates, some data has to be filled or methodology has to be changed,
+	  But on an overall scale this methodoloy can be used for performing complex tasks
